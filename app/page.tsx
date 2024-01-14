@@ -1,11 +1,12 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import styles from "./page.module.css";
+import Hero from "@/app/components/Hero/Hero";
+import Projects from "@/app/components/Projects/Projects";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>Lol</h1>
-        <p>Hey</p>
+      <Hero />
+      <Projects />
     </main>
-  )
+  );
 }

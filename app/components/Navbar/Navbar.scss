@@ -1,0 +1,44 @@
+.navbar-wrapper{
+  position: relative;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  div{
+    p{
+      font-size: 16px;
+      font-weight:300;
+      text-transform: uppercase;
+    }
+  }
+  .right{
+    text-align: right;
+  }
+}
+
+.mid-button{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  a{
+    border: .5px solid var(--foreground);
+    height: 30px;
+    border-radius: var(--border-radius);
+    background: none;
+    font-size: 12px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-out;
+    &:hover{
+      background: var(--foreground);
+      color:var(--background)
+    }
+  }
+
+}

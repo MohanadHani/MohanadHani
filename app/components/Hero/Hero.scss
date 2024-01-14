@@ -1,0 +1,17 @@
+.hero{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  h1{
+    font-size: 96px;
+    text-transform: lowercase;
+  }
+  p{
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  div{
+    //border: 1px solid black;
+  }
+}
