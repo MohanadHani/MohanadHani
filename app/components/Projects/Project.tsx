@@ -18,7 +18,7 @@ const Project: FC<ProjectProps> = ({project}) => {
                 <p className="name"><span>{project.name}</span> - {project.description}</p>
                 <div className="technologies">
                     {project.technologies.map(technology => (
-                        <p>{technology}</p>
+                        <p key={technology}>{technology}</p>
                     ))}
                 </div>
             </div>
