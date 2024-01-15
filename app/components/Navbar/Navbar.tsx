@@ -20,7 +20,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
                 </div>
             </div>
             <div className="mid-button">
-                <Link href="#">Available for Work</Link>
+                <Link href="mailto:mohanadprogrammer96@gmail.com">Available for Work</Link>
             </div>
         </div>
 

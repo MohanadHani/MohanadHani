@@ -27,7 +27,7 @@ export const projects: project[] = [
   {
     id: 3,
     name: "Tyckt",
-    link: "#",
+    link: "https://tickets-mu-flax.vercel.app/",
     description: "Concerts & Events Booking",
     image: "/assets/projectImages/tyckt.jpg",
     technologies: [

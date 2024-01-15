@@ -3,7 +3,7 @@
     --border-radius: 15px;
     --background: #fff;
     --hover: #dcdcdc;
-    --foreground:#1B191A;
+    --foreground: #1B191A;
     --hover-inverted: #3f3f3f;
     --primary-font: var(--font-inter);
     --secondary-font: var(--font-newake);
@@ -14,7 +14,7 @@
     :root {
         --background: #131213;
         --hover: #212121;
-        --foreground:#EBEBEB;
+        --foreground: #EBEBEB;
         --hover-inverted: #a5a5a5;
     }
 }
@@ -25,16 +25,17 @@
     margin: 0;
 }
 
-html{
+html {
     display: flex;
     justify-content: center;
 }
 
-body{
+body {
     width: 100%;
     max-width: var(--max-width);
-    padding: 30px 10px 0;
+    padding: 30px 20px 0;
 }
+
 html,
 body {
     overflow-x: hidden;
