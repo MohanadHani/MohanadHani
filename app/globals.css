@@ -9,6 +9,7 @@
     --secondary-font: var(--font-newake);
 }
 
+
 @media (prefers-color-scheme: dark) {
     :root {
         --background: #131213;
