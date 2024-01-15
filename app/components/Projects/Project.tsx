@@ -11,7 +11,7 @@ const Project: FC<ProjectProps> = ({project}) => {
     return (
         <a href={project.link} key={project.id} className="project">
             <div className="image">
-                <Image src={project.image} alt="" layout="fill"/>
+                <Image src={project.image} alt="" layout="fill" sizes="(max-width: 480px) 100vw, 50vw"/>
             </div>
             <div className="overlay"></div>
             <div className="info">

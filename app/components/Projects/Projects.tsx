@@ -9,7 +9,7 @@ const Projects: FC<ProjectsProps> = ({}) => {
   return (
     <div className="projects">
       {projects.map((project) => (
-        <Project project={project} />
+        <Project project={project} key={project.id} />
       ))}
     </div>
   );
