@@ -2,7 +2,9 @@
     --max-width: 1500px;
     --border-radius: 15px;
     --background: #fff;
+    --hover: #dcdcdc;
     --foreground:#1B191A;
+    --hover-inverted: #3f3f3f;
     --primary-font: var(--font-inter);
     --secondary-font: var(--font-newake);
 }
@@ -10,7 +12,9 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --background: #131213;
+        --hover: #212121;
         --foreground:#EBEBEB;
+        --hover-inverted: #a5a5a5;
     }
 }
 
@@ -28,8 +32,7 @@ html{
 body{
     width: 100%;
     max-width: var(--max-width);
-    padding-top:30px;
-
+    padding: 30px 10px 0;
 }
 html,
 body {

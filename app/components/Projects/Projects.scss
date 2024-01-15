@@ -1,10 +1,85 @@
-.projects{
-  .project{
-    .image{
+.projects {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 0;
+
+  .project {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    cursor: pointer;
+
+    * {
+      transition: .2s ease-out;
+    }
+
+    .image {
       position: relative;
-      width: 100px;
-      height: 100px;
+      width: 100%;
+      height: 550px;
       object-fit: cover;
     }
+
+    .overlay {
+      position: absolute;
+      height: 25%;
+      width: 100%;
+      bottom: 0;
+      background: rgb(255, 255, 255);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    }
+
+    .info {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      padding: 20px 15px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .name {
+        font-size: 16px;
+        color: #A8A8A8;
+
+        span {
+          color: white;
+          font-weight: 600;
+        }
+      }
+
+      .technologies {
+        display: flex;
+        gap: 10px;
+
+        p {
+          font-size: 12px;
+          padding: 5px 7px;
+          border-radius: 30px;
+          border: 1px solid white;
+        }
+      }
+    }
+
+    &:hover {
+      .image {
+        scale: 1.025;
+      }
+    }
+  }
+
+  .project:nth-child(1) {
+    flex: 2
+  }
+
+  .project:nth-child(2) {
+    flex: 1
+  }
+
+  .project:nth-child(3) {
+    width: 100%;
   }
 }

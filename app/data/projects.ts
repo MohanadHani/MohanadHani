@@ -27,7 +27,7 @@ export const projects: project[] = [
   {
     id: 3,
     name: "Tyckt",
-    link: "https://flagpoleagency.com",
+    link: "#",
     description: "Concerts & Events Booking",
     image: "/assets/projectImages/tyckt.jpg",
     technologies: [
