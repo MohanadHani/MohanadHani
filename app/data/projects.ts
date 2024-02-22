@@ -24,18 +24,18 @@ export const projects: project[] = [
     image: "/assets/projectImages/flagpole.jpg",
     technologies: ["Webflow", "Figma"],
   },
-  {
-    id: 3,
-    name: "Tyckt",
-    link: "https://tickets-mu-flax.vercel.app/",
-    description: "Concerts & Events Booking",
-    image: "/assets/projectImages/tyckt.jpg",
-    technologies: [
-      "React.js",
-      "React Query",
-      "React Hook Form",
-      "Firebase",
-      "Figma",
-    ],
-  },
+  // {
+  //   id: 3,
+  //   name: "Tyckt",
+  //   link: "https://tickets-mu-flax.vercel.app/",
+  //   description: "Concerts & Events Booking",
+  //   image: "/assets/projectImages/tyckt.jpg",
+  //   technologies: [
+  //     "React.js",
+  //     "React Query",
+  //     "React Hook Form",
+  //     "Firebase",
+  //     "Figma",
+  //   ],
+  // },
 ];
