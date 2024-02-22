@@ -10,7 +10,7 @@ const Hero: FC<HeroProps> = ({}) => {
         <div className="hero">
             <h1>mohanad hani</h1>
             <div>
-                <p>A Software Engineer based in Riyadh, KSA.</p>
+                <p>A Software Engineer based in Jeddah, KSA.</p>
                 <p>Currently looking for a Front-End Development job.</p>
             </div>
         </div>
