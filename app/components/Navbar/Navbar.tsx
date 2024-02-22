@@ -15,7 +15,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
                     <p>Software Engineer</p>
                 </div>
                 <div className="right">
-                    <p>Riyadh</p>
+                    <p>Jeddah</p>
                     <p>Saudi Arabia</p>
                 </div>
             </div>
